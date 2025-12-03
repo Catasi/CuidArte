@@ -3,6 +3,10 @@
     <style name="Base.Theme.CuidArte" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <color name="turquoise">#00CED1</color>
+        <color name="turquoise_dark">#00B8BB</color>
+
     </style>
 
     <style name="Theme.CuidArte" parent="Base.Theme.CuidArte" />
