@@ -5,13 +5,14 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import edu.utleon.idgs702.cuidarte.MainActivity;
 import edu.utleon.idgs702.cuidarte.database.DataBaseHelper;
 import edu.utleon.idgs702.cuidarte.modelos.Usuario;
 
 public class UsuarioDAO {
     private DataBaseHelper dbHelper;
 
-    public void UsuarioDAO(Context context) {
+    public UsuarioDAO(Context context) {
         dbHelper = new DataBaseHelper(context);
     }
 

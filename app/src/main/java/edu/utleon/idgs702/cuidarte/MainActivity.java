@@ -1,5 +1,6 @@
 package edu.utleon.idgs702.cuidarte;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -83,11 +84,11 @@ public class MainActivity extends AppCompatActivity{
                 Toast.LENGTH_SHORT).show();
             
             // Redirigir a la activity menú principal
-            // Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-            // intent.putExtra("usuario_id", usuarioEncontrado.getId());
-            // intent.putExtra("usuario_nombre", usuarioEncontrado.getNombre());
-            // startActivity(intent);
-            // finish();
+            Intent intent = new Intent(MainActivity.this, Menu.class);
+            intent.putExtra("usuario_id", usuarioEncontrado.getId());
+            intent.putExtra("usuario_nombre", usuarioEncontrado.getNombre());
+            startActivity(intent);
+            finish();
             
         } else {
             // Login fallido
