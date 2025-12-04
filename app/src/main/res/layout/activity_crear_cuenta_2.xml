@@ -16,7 +16,7 @@
         android:layout_marginBottom="40dp"
         android:text="Crear Cuenta - Paso 2"
         android:textSize="24sp"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/turquoise"
         android:textStyle="bold"/>
 
     <!-- Nombre de Usuario -->
@@ -105,8 +105,8 @@
             android:layout_height="56dp"
             android:layout_weight="1"
             android:text="Atrás"
-            android:textColor="@color/primary_color"
-            android:backgroundTint="@color/grey_light"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/turquoise"
             android:layout_marginEnd="8dp"/>
 
         <Button
@@ -116,7 +116,7 @@
             android:layout_weight="1"
             android:text="Registrarse"
             android:textColor="@color/white"
-            android:backgroundTint="@color/primary_color"
+            android:backgroundTint="@color/turquoise"
             android:layout_marginStart="8dp"/>
 
     </LinearLayout>
@@ -128,7 +128,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
         android:text="* El PIN se usará para acceder a tu cuenta de forma segura"
-        android:textColor="@color/grey"
+        android:textColor="@color/black"
         android:textSize="12sp"
         android:textStyle="italic"/>
 

@@ -16,7 +16,7 @@
         android:layout_marginBottom="40dp"
         android:text="Crear Cuenta - Paso 1"
         android:textSize="24sp"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/turquoise"
         android:textStyle="bold"/>
 
     <!-- Nombre -->
@@ -96,7 +96,7 @@
         android:layout_height="56dp"
         android:text="Siguiente"
         android:textColor="@color/white"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@color/turquoise"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"/>
 
@@ -106,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="¿Ya tienes una cuenta? Inicia Sesión"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/black"
         android:textSize="14sp"
         android:padding="8dp"/>
 

@@ -32,9 +32,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+        }
     }
+
 }
 
 dependencies {
@@ -53,5 +56,5 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation ('com.google.android.material:material:1.6.1')
+    implementation ("com.google.android.material:material:1.6.1")
 }
