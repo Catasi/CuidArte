@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import edu.utleon.idgs702.cuidarte.dao.UsuarioDAO;
-import edu.utleon.idgs702.cuidarte.models.Usuario;
+import edu.utleon.idgs702.cuidarte.modelos.Usuario;
 
 
 public class MainActivity extends AppCompatActivity{
