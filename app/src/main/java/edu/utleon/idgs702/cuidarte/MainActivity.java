@@ -97,8 +97,10 @@ public class MainActivity extends AppCompatActivity {
             
             // Redirigir a la activity menú principal
             Intent intent = new Intent(MainActivity.this, Menu.class);
-            intent.putExtra("usuario_id", usuarioEncontrado.getId());
+            intent.putExtra("id_usuario", usuarioEncontrado.getId());
+            intent.putExtra("usuario", usuarioEncontrado.getUsuario());
             intent.putExtra("usuario_nombre", usuarioEncontrado.getNombre());
+            intent.putExtra("usuario-appellidos", usuarioEncontrado.getApellidos());
             startActivity(intent);
             finish();
             
