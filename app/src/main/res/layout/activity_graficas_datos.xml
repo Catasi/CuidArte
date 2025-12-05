@@ -100,6 +100,8 @@
     </androidx.cardview.widget.CardView>
 
     <!-- Tarjeta 3: Calidad del Sueño -->
+
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSueno"
         android:layout_width="0dp"
@@ -111,11 +113,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cardPresion">
+        app:layout_constraintTop_toBottomOf="@id/cardPresion"
+        app:layout_constraintVertical_bias="0.198">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="143dp"
             android:orientation="vertical"
             android:padding="16dp">
 
@@ -137,7 +140,6 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
 
     <LinearLayout
         android:id="@+id/layoutBotones"
