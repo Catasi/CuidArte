@@ -19,7 +19,7 @@
 
     <!-- Nombre de usuario -->
     <TextView
-        android:id="@+id/txtUserName"
+        android:id="@+id/txtUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -30,11 +30,11 @@
 
     <!-- Email -->
     <TextView
-        android:id="@+id/txtUserEmail"
+        android:id="@+id/txtUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="usuario@email.com"
+        android:text="Nombre Apellidos"
         android:textColor="#E0F7F8"
         android:textSize="14sp" />
 
