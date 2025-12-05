@@ -10,11 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CuidArte">
-        
-        <activity
-            android:name=".GraficasDatos"
-            android:exported="false" />
-            
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,13 +23,18 @@
         <!-- NUEVA ACTIVIDAD DE REGISTRO -->
         <activity
             android:name=".RegistroActivity"
-            android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         
         <activity
             android:name=".Menu"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".GraficasDatos" />
+
+        <activity
+            android:name=".CitasMedicas"></activity>
             
     </application>
 
